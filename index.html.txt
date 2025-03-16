@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новости Мира</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Новости Мира</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="politics.html">Политика</a></li>
+                <li><a href="economy.html">Экономика</a></li>
+                <li><a href="technology.html">Технологии</a></li>
+                <li><a href="culture.html">Культура</a></li>
+                <li><a href="sports.html">Спорт</a></li>
+                <li><a href="health.html">Здоровье</a></li>
+                <li><a href="about.html">О нас</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="latest-news">
+        <h2>Последние новости</h2>
+        <article>
+            <h3>Заголовок новости 1</h3>
+            <p>Краткое описание новости 1...</p>
+            <a href="news1.html">Читать далее</a>
+        </article>
+        <article>
+            <h3>Заголовок новости 2</h3>
+            <p>Краткое описание новости 2...</p>
+            <a href="news2.html">Читать далее</a>
+        </article>
+    </section>
+
+    <section id="popular-news">
+        <h2>Популярные новости</h2>
+        <article>
+            <h3>Заголовок популярной новости 1</h3>
+            <p>Краткое описание популярной новости 1...</p>
+            <a href="popular1.html">Читать далее</a>
+        </article>
+        <article>
+            <h3>Заголовок популярной новости 2</h3>
+            <p>Краткое описание популярной новости 2...</p>
+            <a href="popular2.html">Читать далее</a>
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Новости Мира. Все права защищены.</p>
+    </footer>
+</body>
+</html>
